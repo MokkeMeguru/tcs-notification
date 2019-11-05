@@ -9,7 +9,7 @@
 
 ## VAPID キーの生成
 ```shell
-lein run -m notification.webpush
+docker-compose run --rm notification-serv lein run -m notification.webpush
 ```
 
 ## profiles.clj の作成
