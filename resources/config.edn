@@ -1,0 +1,3 @@
+{:notification.server/jetty {:port 8080}
+ :notification.schedule/channel {}
+ :notification.schedule/schedule-notification {:ch #ig/ref :notification.schedule/channel}}
